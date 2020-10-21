@@ -55,6 +55,7 @@ df_can.head()
 
 <div>
 
+
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -218,10 +219,16 @@ df_can.head()
 
 import matplotlib as mpl
 import matplotlib.pyplot as plt
+```
 
+
+```python
+print(plt.style.available)
 mpl.style.use(['seaborn-darkgrid']) # optional: for ggplot-like style
 ```
 
+    ['Solarize_Light2', '_classic_test_patch', 'bmh', 'classic', 'dark_background', 'fast', 'fivethirtyeight', 'ggplot', 'grayscale', 'seaborn', 'seaborn-bright', 'seaborn-colorblind', 'seaborn-dark', 'seaborn-dark-palette', 'seaborn-darkgrid', 'seaborn-deep', 'seaborn-muted', 'seaborn-notebook', 'seaborn-paper', 'seaborn-pastel', 'seaborn-poster', 'seaborn-talk', 'seaborn-ticks', 'seaborn-white', 'seaborn-whitegrid', 'tableau-colorblind10']
+    
 
 ## Haiti Inmigration to Canada
 
