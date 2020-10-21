@@ -10,6 +10,6 @@ A collection of personal projects.
 
 ### [Line Plots](https://github.com/RenatoPeG/portfolio/blob/main/Line%20Plots)
 
-### [Scatter and Bubble Plots](https://github.com/RenatoPeG/portfolio/blob/main/Scatter%20and%20Bubble%20Plots)
+### [Scatter and Bubble Plots](https://github.com/RenatoPeG/portfolio/tree/main/Scatter%20Plots%20and%20Bubble%20Plots)
 
 ### [Machine Recognition of Handwritten Numbers](https://github.com/RenatoPeG/portfolio/tree/main/Machine%20Recognition%20of%20Handwritten%20Numbers)
