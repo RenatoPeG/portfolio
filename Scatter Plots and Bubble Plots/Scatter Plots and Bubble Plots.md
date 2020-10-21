@@ -264,7 +264,7 @@ fit = np.polyfit(x, y, deg=1)
 
 
 ```python
-df_tot.plot(kind='scatter', x='year', y='total', figsize=(10, 6), color='darkblue')
+df_tot.plot(kind='scatter', x='year', y='total', figsize=(16, 8), color='darkblue')
 
 plt.title('Total Immigration to Canada from 1980 - 2013')
 plt.xlabel('Year')
@@ -306,7 +306,7 @@ df_total['year'] = df_total['year'].astype(int)
 
 
 ```python
-df_total.plot(kind='scatter', x='year', y='total', figsize=(10, 6), color='darkblue')
+df_total.plot(kind='scatter', x='year', y='total', figsize=(16, 8), color='darkblue')
 
 plt.title('Immigration from Denmark, Norway, and Sweden to Canada from 1980 - 2013')
 plt.xlabel('Year')
