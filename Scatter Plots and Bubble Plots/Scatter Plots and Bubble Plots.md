@@ -340,7 +340,7 @@ norm_argentina = (df_can_t['Argentina'] - df_can_t['Argentina'].min()) / (df_can
 ax0 = df_can_t.plot(kind='scatter',
                     x='Year',
                     y='Brazil',
-                    figsize=(14, 8),
+                    figsize=(16, 8),
                     alpha=0.5,                  # transparency
                     color='green',
                     s=norm_brazil * 2000 + 10,  # pass in weights 
@@ -365,7 +365,7 @@ ax0.legend(['Brazil', 'Argentina'], loc='upper left', fontsize='x-large')
 
 
 
-    <matplotlib.legend.Legend at 0x1a50fe1f0d0>
+    <matplotlib.legend.Legend at 0x1a50f849550>
 
 
 
@@ -383,7 +383,7 @@ norm_india = (df_can_t['India'] - df_can_t['India'].min()) / (df_can_t['India'].
 ax0 = df_can_t.plot(kind='scatter',
                     x='Year',
                     y='China',
-                    figsize=(14, 8),
+                    figsize=(16, 8),
                     alpha=0.5,                  # transparency
                     color='green',
                     s=norm_china * 2000 + 10,  # pass in weights 
@@ -408,7 +408,7 @@ ax0.legend(['China', 'India'], loc='upper left', fontsize='x-large')
 
 
 
-    <matplotlib.legend.Legend at 0x1a50ff550a0>
+    <matplotlib.legend.Legend at 0x1a50feffb80>
 
 
 
@@ -417,3 +417,8 @@ ax0.legend(['China', 'India'], loc='upper left', fontsize='x-large')
 ![png](Scatter%20Plots%20and%20Bubble%20Plots_files/Scatter%20Plots%20and%20Bubble%20Plots_16_1.png)
     
 
+
+
+```python
+
+```
