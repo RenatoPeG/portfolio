@@ -251,7 +251,7 @@ df_t = df_can.loc[['Denmark', 'Norway', 'Sweden'], years].transpose()
 count, bin_edges = np.histogram(df_t, 15)
 
 df_t.plot(kind ='hist', 
-          figsize=(10, 6),
+          figsize=(16, 8),
           bins=15,
           alpha=0.6,
           xticks=bin_edges,
@@ -282,7 +282,7 @@ xmax = bin_edges[-1] + 10  #  last bin value is 308.0, adding buffer of 10 for a
 
 # stacked Histogram
 df_t.plot(kind='hist',
-          figsize=(10, 6), 
+          figsize=(16, 8), 
           bins=15,
           alpha=0.6,
           xticks=bin_edges,
@@ -315,7 +315,7 @@ df_cof = df_cof.transpose()
 count, bin_edges = np.histogram(df_cof, 15)
 
 df_cof.plot(kind ='hist',
-            figsize=(10, 6),
+            figsize=(16, 8),
             bins=15,
             alpha=0.6,
             stacked=True,
