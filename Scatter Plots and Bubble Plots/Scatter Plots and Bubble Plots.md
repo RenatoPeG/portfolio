@@ -55,8 +55,19 @@ df_can.head()
 
 
 <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
 
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
 
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -365,7 +376,7 @@ ax0.legend(['Brazil', 'Argentina'], loc='upper left', fontsize='x-large')
 
 
 
-    <matplotlib.legend.Legend at 0x1a50f849550>
+    <matplotlib.legend.Legend at 0x1a50fcf84c0>
 
 
 
@@ -408,7 +419,7 @@ ax0.legend(['China', 'India'], loc='upper left', fontsize='x-large')
 
 
 
-    <matplotlib.legend.Legend at 0x1a50feffb80>
+    <matplotlib.legend.Legend at 0x1a50f707f10>
 
 
 
