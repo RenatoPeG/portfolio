@@ -219,10 +219,8 @@ df_can.head()
 
 import matplotlib as mpl
 import matplotlib.pyplot as plt
-
 mpl.style.use(['seaborn-darkgrid'])
 ```
-
 
 ## Haiti Inmigration to Canada
 
@@ -236,14 +234,12 @@ plt.title('Immigration from Haiti')
 plt.ylabel('Number of Immigrants')
 plt.xlabel('Years')
 
-plt.text(2000, 6000, '2010 Earthquake')
-
 plt.show() 
 ```
 
 
     
-![png](Line%20Plots_files/Line%20Plots_11_0.png)
+![png](Line%20Plots_files/Line%20Plots_10_0.png)
     
 
 
@@ -266,7 +262,7 @@ plt.show()
 
 
     
-![png](Line%20Plots_files/Line%20Plots_13_0.png)
+![png](Line%20Plots_files/Line%20Plots_12_0.png)
     
 
 
@@ -292,7 +288,7 @@ plt.show()
 
 
     
-![png](Line%20Plots_files/Line%20Plots_15_0.png)
+![png](Line%20Plots_files/Line%20Plots_14_0.png)
     
 
 
